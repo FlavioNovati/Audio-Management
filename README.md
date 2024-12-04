@@ -22,5 +22,4 @@ SFX can be obtained by an **SFX_SO** scriptable with the **GetSFX** method.
 
 Each SFX request is done by invoking the PlaySFX static action directly on SFXManager.PlaySFX(SFX, Vector3) .
 
-All AudioSource instances used by SFX Manager are initialized disabled when an SFX is reproduced the AudioSource gameObject is set to enabled.
-Pooling works on AudioSource.IsPlaying rather than on gameObject.ActiveInHierarchy.
+AudioClip pooling works on AudioSource.IsPlaying rather than on gameObject.ActiveInHierarchy.
