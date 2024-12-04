@@ -11,7 +11,7 @@ SFX are reproduced using an instance of an AudioSource moved in a defined positi
 ### 2.1 - SFX
 Each SFX contains an AudioClip, Pitch and Spatial Blend.
 SFX can be obtained by an **SFX_SO** scriptable with the **GetSFX** method.
-**SFX_SO.GetSFX* will return an SFX with all the parameters setted up according to its serialized parameters.
+**SFX_SO.GetSFX** will return an SFX with all the parameters setted up according to its serialized parameters.
 
 > [!NOTE]
 > Here's a list of the serialized parameters:
