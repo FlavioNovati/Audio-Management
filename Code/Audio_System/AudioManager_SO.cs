@@ -1,7 +1,8 @@
-using System.Collections.Generic;
 using UnityEngine;
-using Audio_System.Channel;
 using UnityEngine.Audio;
+using System.Collections.Generic;
+
+using Audio_System.Channel;
 
 namespace Audio_System
 {
